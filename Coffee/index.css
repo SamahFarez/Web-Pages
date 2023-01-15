@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-padding-top: 90px;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    background-color: rgb(163, 79, 0);
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px 40px;
+    z-index: 999;
+}
+
+.top {
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.top:hover {
+    color: rgb(231, 206, 168);
+}
+
+
+.name img,
+.name a {
+    float: left;
+}
+
+.name a {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 200;
+    color: black;
+    text-decoration: none;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+nav div img {
+    height: 60px;
+    width: auto;
+}
+
+.links {
+    float: right;
+    margin: 25px 40px;
+}
+
+.links a {
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home {
+    background-image: url(https://img.freepik.com/free-photo/coffee-beans-top-view-white-background-space-text_176474-5028.jpg?w=2000);
+    background-size: 100%;
+    height: 880px;
+    width: 100%;
+    padding: 335Px 300px;
+}
+
+.home div {
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.ourCoffee {
+    height: 200px;
+    padding: 50px 500px;
+    background-color: rgb(231, 206, 168);
+    text-align: center;
+}
+
+.ourCoffee h3 {
+    font-size: 30px;
+    margin-bottom: -10px;
+
+}
+
+.coffee,
+.desserts {
+    padding: 100px 50px;
+    background-color: rgb(231, 206, 168);
+
+}
+
+.coffee fieldset div h3,
+.desserts fieldset div h3 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.price {
+    display: inline-block;
+    float: right;
+    margin-top: 20px !important;
+    margin-right: 10px;
+
+}
+
+
+.coffee p,
+.desserts p {
+    margin-top: -5px;
+    margin-left: 10px;
+}
+
+
+.coffee div,
+.desserts div {
+    padding: 25px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.coffee div:hover,
+.desserts div:hover {
+    background-color: rgb(163, 79, 0);
+}
+
+
+.coffee div img,
+.desserts div img {
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+}
+
+.menu {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.coffee fieldset,
+.desserts fieldset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1400px;
+    padding: 40px;
+    padding-top: 160px;
+    margin-top: -150px;
+    border: 4px solid rgb(163, 79, 0);
+}
+
+.gifts {
+    background-image: url(https://img4.goodfon.com/wallpaper/nbig/3/dd/background-zerna-texture-coffee-beans-kofe-fon-roasted-1.jpg);
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+    padding: 100px;
+    padding-top: 150px;
+
+}
+
+
+.gifts div {
+    background-color: rgb(231, 206, 168);
+    padding: 40px;
+    height: 500px;
+    width: 70%;
+    margin: auto;
+
+
+}
+
+.gifts div fieldset {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+    border: 4px dashed rgb(163, 79, 0);
+
+
+}
+
+.gifts div fieldset::before {
+    content: "";
+    background-image: url(https://media.istockphoto.com/vectors/coffee-cup-emblem-vector-id1357674663?b=1&k=20&m=1357674663&s=612x612&w=0&h=9GZunEiJg2L4JhcorXd-cIcw_d5Ok3NFq-Irqsb931c=);
+    background-size: 100%;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+
+}
+
+.gift {
+    position: relative;
+}
+
+.gifts div fieldset p {
+
+    margin: 20Px auto;
+}
+
+.gifts div fieldset h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-weight: 300;
+    font-size: 50px;
+}
+
+.gifts div fieldset h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+    margin-top: -5px;
+}
+
+hr {
+    border: 2px solid rgb(163, 79, 0);
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(231, 206, 168);
+    padding: 40px 20px;
+}
+
+.footer div div p {
+    margin-top: -20px;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 150px;
+    padding: 50px 250px;
+}
+
+#email {
+    color: rgb(163, 79, 0);
+}
